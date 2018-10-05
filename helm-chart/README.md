@@ -38,7 +38,7 @@ Note: In case RBAC is active new service account will be created for Kube-downsc
 
 4. Deploy Kube-downscaler:
 ```
-helm install . --values "config/${KDS_ENV}.yaml" --namespace management  --name kube-downscaler
+helm install . --values "config/${KDS_ENV}.yaml" --namespace default  --name kube-downscaler
 ```
 
 5. Check the deployed release status:
