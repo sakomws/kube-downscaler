@@ -6,8 +6,6 @@ description:  A Helm chart for kube-downscaler
 keywords:
 - k8s pods scheduler
 - scheduled lifecycle
-home: https://www.opengov.com
 sources:
 - https://github.com/hjacobs/kube-downscaler
-maintainers:
-- name: OpenGov Devops Team
+
