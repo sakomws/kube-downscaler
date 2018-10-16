@@ -104,10 +104,6 @@ kubectl delete -f tutorial/flaskapp/flask_1.yaml
 kubectl delete -f tutorial/flaskapp/flask_2.yaml
 ```
 
-## Authors
-
-[Opengov](https://opengov.com) Devops team.
-
 ## Acknowledgments
 
 Thanks to [Kube-downscaler](https://github.com/hjacobs/kube-downscaler) project authored by [Henning Jacobs](https://github.com/hjacobs).
