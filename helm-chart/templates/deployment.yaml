@@ -36,8 +36,3 @@ spec:
         imagePullPolicy: {{ .Values.image.pullPolicy }}
         resources:
 {{ toYaml .Values.resources | indent 12 }}
-        env:
-        - name: STATSD_HOST
-          valueFrom:
-            fieldRef:
-                fieldPath: status.hostIP
